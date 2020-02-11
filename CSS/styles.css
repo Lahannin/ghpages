@@ -1,3 +1,151 @@
+/* Color Palette
+#E8EEF2
+#D6C9C9
+#C7D3DD
+#77B6EA
+#37393A
+-----------------------*/
+
+#testi {
+  margin: 5px 0px;
+  padding: 5px 5px;
+  box-shadow: -1px -1px 6px #888888;
+}
+
+/* Global style
+-----------------------*/
+/* border box fix */
+
+.header {
+  background-size: cover;
+  height: 100px;
+  text-align: center;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+l {
+  font-weight: bold;
+}
+
+body {
+font-family: "times new roman", georgia, sans-serif;
+font-size: 1em;
+margin: 0;
+}
+
+.place {
+font-size: 0.9em;
+
+  margin-top: 5px;
+}
+
+.time {
+  font-size: 0.9em;
+    margin-top: 5px;
+}
+.list {
+  font-size: 0.9em;
+}
+
+.intro {
+  text-align: justify;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a {
+  color: #FFFAFA;
+}
+
+.list {
+  padding: 0% 10%;
+}
+
+.content-wrap {
+max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
 h1 {
-  color: grey;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+  text-align: justify;
+}
+
+/* Head and Footer
+-----------------------*/
+header, footer {
+background: #003249;
+color: #FFFAF0;
+}
+/*header*/
+
+.profile_picture {
+border-radius: 50%;
+}
+
+header h1, header h2 {
+color: #F0F8FF;
+margin: 0;
+}
+
+
+
+/*footer*/
+
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 10px;
+}
+
+/* Experience
+-----------------------*/
+.experience {
+background: #E8EEF2;
+}
+
+h3 ~ p {
+  margin: 0;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
+/* Education
+-----------------------*/
+.education {
+background: #C7D3DD;
+
 }
